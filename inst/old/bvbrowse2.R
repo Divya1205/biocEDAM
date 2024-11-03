@@ -1,9 +1,4 @@
-#' interactive exploration of biocViews in relation to packages
-#' @import shiny
-#' @import graph
-#' @import BiocPkgTools
-#' @note Was made consistent with inst/app code on 3 Nov 2024.
-#' @export
+
 bvbrowse = function() {
 
  data("biocViewsVocab", package="biocViews")
